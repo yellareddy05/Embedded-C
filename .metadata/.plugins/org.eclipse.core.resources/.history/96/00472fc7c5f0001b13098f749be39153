@@ -1,0 +1,27 @@
+/*
+ * fun_def.c
+ *
+ *  Created on: 30-Jul-2021
+ *      Author: yellareddy
+ */
+
+int main()
+{
+	function_add_numbers(10,60,90);  // when you calling a function you need to pass 12 integer values..
+	function_add_numbers(-60,60,90);
+
+	int valueA=90,valueB=70;
+	function_add_numbers(valueA,valueB,90);
+return 0;
+}
+
+
+//This is the function definition
+void function_add_numbers(int a,int b,int c)
+{
+	int sum;
+	sum=a+b+c;
+}
+
+
+
