@@ -1,15 +1,15 @@
-05:09:11 **** Incremental Build of configuration Debug for project 002 Functions ****
+06:05:59 **** Build of configuration Debug for project 003 Functions ****
 make all 
-Building file: ../fun_def.c
+Building file: ../fun_ret.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fun_def.d" -MT"fun_def.o" -o "fun_def.o" "../fun_def.c"
-Finished building: ../fun_def.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fun_ret.d" -MT"fun_ret.o" -o "fun_ret.o" "../fun_ret.c"
+Finished building: ../fun_ret.c
  
-Building target: 002 Functions
+Building target: 003 Functions
 Invoking: GCC C Linker
-gcc  -o "002 Functions" ./fun_def.o   
-Finished building target: 002 Functions
+gcc  -o "003 Functions" ./fun_ret.o   
+Finished building target: 003 Functions
  
-05:10:14 **** Incremental Build of configuration Debug for project 002 Functions ****
+06:06:09 **** Incremental Build of configuration Debug for project 003 Functions ****
 make all 
 make: Nothing to be done for 'all'.
