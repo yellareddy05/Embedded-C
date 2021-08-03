@@ -32,10 +32,10 @@ int v_sub(int n1,int n2)
 
 long long int p_mul(int n1,int n2)
 {
-	return n1*n2;
+	return(long long int)n1*n2;  //in order to solve this issue we need to typcast one of //the variablrs into long long int 
 }
 
 float i_div(int n1,int n2)
 {
-	return n1/n2;
+	return(float)n1/n2;
 }

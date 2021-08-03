@@ -14,3 +14,6 @@ Invoking: GCC C Linker
 gcc  -o "005 Typecasting" ./main.o   
 Finished building target: 005 Typecasting
  
+
+21:35:19 Build Finished. 0 errors, 1 warnings. (took 1s.189ms)
+

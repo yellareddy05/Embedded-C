@@ -13,11 +13,7 @@ int main()
 {
 	printf("Add : %x\n",i_add(0x0FFF1111,0xAAAA5555));
 
-	printf("mul : %llx\n",p_mul(0x0FFF1111,0x0FFF1111 ));
-
-
-	printf("div : %f\n",i_div(100,8));
-
+	printf("mul : %x\n",p_mul(0x0FFF1111,0xAAAA5555));
 
 	return 0;
 }
